@@ -1,6 +1,7 @@
 import { generateText } from "ai";
 import { openai } from "@ai-sdk/openai";
 import { CHAT_MODEL } from "../lib/ai-config.js";
+import { addMemoriesFromMessages } from "../lib/mem0.js";
 import {
     findConversationById,
     updateConversationSummary,
